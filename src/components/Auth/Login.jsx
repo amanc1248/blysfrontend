@@ -50,8 +50,15 @@ export default function Login({ onSubmit, loading }) {
       <div className="max-w-md w-full">
         <div className="card">
           <div className="text-center mb-8">
+            <div className="flex justify-center mb-4">
+              <img 
+                src="https://getblys.com.au/wp-content/uploads/2019/03/Combined-Shape-Copy.jpg" 
+                alt="Blys Logo" 
+                className="h-16 w-16 object-contain"
+              />
+            </div>
             <h2 className="text-3xl font-bold text-gray-900">Welcome Back</h2>
-            <p className="mt-2 text-sm text-gray-600">Sign in to your account</p>
+            <p className="mt-2 text-sm text-gray-600">Sign in to Blys Task Manager</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">

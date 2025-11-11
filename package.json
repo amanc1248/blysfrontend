@@ -1,7 +1,8 @@
 {
-  "name": "task-manager-frontend",
+  "name": "blys-task-manager-frontend",
   "private": true,
   "version": "1.0.0",
+  "description": "Blys Task Manager - Professional task management built for Blys",
   "type": "module",
   "scripts": {
     "dev": "vite",
